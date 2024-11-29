@@ -1,7 +1,7 @@
 const express = require('express');
 const db = require('./database');
 const cors = require('cors');
-require('../src/services/dividendoCron');
+require('../src/services/dividendoCron.js');
 
 
 const app = express();
